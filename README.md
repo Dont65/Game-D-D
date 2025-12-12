@@ -42,7 +42,7 @@
     ```bash
     npm run dev
     ```
-    Приложение запустится, и вы сможете начать свое приключение в браузере или консоли (в зависимости от реализации проекта).
+    Приложение запустится, и вы сможете начать свое приключение в браузере.
 
 -----
 
@@ -87,5 +87,5 @@ In this game, you don't just read; you **actively shape the narrative** by makin
     ```bash
     npm run dev
     ```
-    The application will start, and you can begin your adventure in your browser or console (depending on the project implementation).
+    The application will start, and you can begin your adventure in your browser.
 
