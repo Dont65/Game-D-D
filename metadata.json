@@ -1,0 +1,5 @@
+{
+  "name": "Путешествие по подземелью",
+  "description": "Текстовая RPG игра в стиле DnD с генерацией сюжета через AI.",
+  "requestFramePermissions": []
+}

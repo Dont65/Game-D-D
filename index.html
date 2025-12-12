@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Путешествие по подземелью</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Roboto:wght@400;500;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        /* Material Design 3 Dark Theme Base */
+        --md-sys-color-background: #141218;
+        --md-sys-color-surface: #141218;
+        --md-sys-color-surface-container: #1D1B20;
+        --md-sys-color-surface-container-high: #2B2930;
+        --md-sys-color-primary: #D0BCFF;
+        --md-sys-color-on-primary: #381E72;
+        --md-sys-color-primary-container: #4F378B;
+        --md-sys-color-on-primary-container: #EADDFF;
+        --md-sys-color-secondary: #CCC2DC;
+        --md-sys-color-tertiary: #EFB8C8;
+        --md-sys-color-error: #F2B8B5;
+        --md-sys-color-outline: #938F99;
+        
+        /* DnD Mapping */
+        --dnd-bg: var(--md-sys-color-background);
+        --dnd-panel: var(--md-sys-color-surface-container);
+        --dnd-border: var(--md-sys-color-surface-container-high); 
+        --dnd-primary: #E6E1E5;
+        --dnd-muted: #CAC4D0;
+        --dnd-gold: var(--md-sys-color-primary); 
+        --dnd-red: var(--md-sys-color-error);
+        --dnd-blue: #A8C7FA;
+        
+        --dnd-dice-bg: var(--md-sys-color-surface-container-high);
+        --dnd-dice-text: var(--md-sys-color-primary);
+        --dnd-dice-border: transparent;
+      }
+
+      body {
+        background-color: var(--dnd-bg);
+        color: var(--dnd-primary);
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+      }
+      
+      h1, h2, h3, .font-fantasy {
+        font-family: 'Cinzel', serif;
+      }
+
+      .font-body {
+        font-family: 'Lora', serif;
+      }
+
+      /* MD3 Card Style */
+      .glass-panel {
+        background: var(--dnd-panel);
+        border-radius: 24px; /* MD3 Large Shape */
+        border: none;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.3), 0 2px 6px 2px rgba(0,0,0,0.15);
+      }
+
+      /* MD3 Button Ripple Simulation */
+      button {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--dnd-muted);
+        border-radius: 10px;
+        opacity: 0.5;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              fantasy: ['Cinzel', 'serif'],
+              body: ['Lora', 'serif'],
+              ui: ['Roboto', 'sans-serif'],
+            },
+            colors: {
+              dnd: {
+                bg: 'var(--dnd-bg)',
+                panel: 'var(--dnd-panel)',
+                border: 'var(--dnd-border)',
+                primary: 'var(--dnd-primary)',
+                gold: 'var(--dnd-gold)',
+                red: 'var(--dnd-red)',
+                blue: 'var(--dnd-blue)',
+                muted: 'var(--dnd-muted)'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
