@@ -4,7 +4,7 @@
 
 ## Run Locally
 
-**Prerequisites:**  Node.js, openrouter API key
+**Prerequisites:**  Node.js, [Openrouter API key](https://openrouter.ai/settings/keys)
 
 1. Install dependencies:
    `npm install`
