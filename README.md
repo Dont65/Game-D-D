@@ -27,19 +27,18 @@
 
 1.  **Клонируйте репозиторий** (если вы еще этого не сделали):
     ```bash
-    git clone [ссылка на ваш репозиторий]
-    cd [название папки проекта]
+    git clone https://github.com/Dont65/Game-D-D.git
     ```
+    ```bash
+    cd Game-D-D
+    ```
+    
 2.  **Установите зависимости:**
     ```bash
     npm install
     ```
-3.  **Настройте API-ключ:**
-    Создайте файл `.env` в корневом каталоге проекта и добавьте ваш ключ Openrouter API:
-    ```
-    OPENROUTER_API_KEY="ВАШ_КЛЮЧ_ЗДЕСЬ"
-    ```
-4.  **Запустите приложение:**
+    
+3.  **Запустите приложение:**
     ```bash
     npm run dev
     ```
@@ -74,24 +73,19 @@ In this game, you don't just read; you **actively shape the narrative** by makin
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone [Your Repository Link]
-    cd [your-project-folder-name]
+    git clone https://github.com/Dont65/Game-D-D.git
+    ```
+    ```bash
+    cd Game-D-D
     ```
 2.  **Install dependencies:**
     ```bash
     npm install
     ```
-3.  **Set up the API Key:**
-    Create a file named `.env` in the project's root directory and add your Openrouter API key:
-    ```
-    OPENROUTER_API_KEY="YOUR_KEY_HERE"
-    ```
-4.  **Run the app:**
+
+3.  **Run the app:**
     ```bash
     npm run dev
     ```
     The application will start, and you can begin your adventure in your browser or console (depending on the project implementation).
 
------
-
-Что бы вы хотели сделать дальше? Например, я могу помочь с добавлением раздела о **структуре проекта** или **дальнейшем развитии (Roadmap)**.
