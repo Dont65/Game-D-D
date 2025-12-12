@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="DnD" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6](https://i.ytimg.com/vi/V5qrBub3SGY/maxresdefault.jpg" />
+<img width="1200" height="475" alt="DnD" src="https://i.ytimg.com/vi/V5qrBub3SGY/maxresdefault.jpg" />
 </div>
 
 ## Run Locally
